@@ -1,0 +1,60 @@
+Triangle Counting: we assume the neighbor lists are sorted.
+input file path: inputs/twitter40, graph name: twitter40
+Orientation enabled, using DAG
+Time on generating the DAG: 11.5009 sec
+|V|: 41652230, |E|: 1202513046, Max Degree: 4102
+This graph does not have vertex labels
+This graph does not have edge labels
+This graph has no input vertex features
+Found 8 devices
+  Device[0]: NVIDIA GeForce RTX 2080 Ti
+  Compute capability: 7.5
+  Warp size: 32
+  Total # SM: 68
+  Total # CUDA cores: 4352
+  Total amount of shared memory per block: 49152 bytes
+  Total # registers per block: 65536
+  Total amount of constant memory: 65536 bytes
+  Total global memory: 10.7 GB
+  Memory Clock Rate: 6.68 GHz
+  Memory Bus Width: 352 bits
+  Peak Memory Bandwidth: 616.00 GB/s
+
+  Device[1]: NVIDIA GeForce RTX 2080 Ti
+  Device[2]: NVIDIA GeForce RTX 2080 Ti
+  Device[3]: NVIDIA GeForce RTX 2080 Ti
+  Device[4]: NVIDIA GeForce RTX 2080 Ti
+  Device[5]: NVIDIA GeForce RTX 2080 Ti
+  Device[6]: NVIDIA GeForce RTX 2080 Ti
+  Device[7]: NVIDIA GeForce RTX 2080 Ti
+GPU_total_mem = 11539054592 graph_mem = 9953322216
+num_subgraphs: 8 subgraph_size: 5206529
+generating subgraph[0]: from vertex 0 to 5206529
+|V| = 9996570 |E| = 654382997
+generating subgraph[1]: from vertex 5206529 to 10413058
+|V| = 10579844 |E| = 689303767
+generating subgraph[2]: from vertex 10413058 to 15619587
+|V| = 10577695 |E| = 688420898
+generating subgraph[3]: from vertex 15619587 to 20826116
+|V| = 10575076 |E| = 686606730
+generating subgraph[4]: from vertex 20826116 to 26032645
+|V| = 10345472 |E| = 674414418
+generating subgraph[5]: from vertex 26032645 to 31239174
+|V| = 9834986 |E| = 653812875
+generating subgraph[6]: from vertex 31239174 to 36445703
+|V| = 9709335 |E| = 629284090
+generating subgraph[7]: from vertex 36445703 to 41652230
+|V| = 9813608 |E| = 623534118
+Total GPU copy time (graph+edgelist) = 16.782 sec
+max_blocks_per_SM = 4
+CUDA triangle counting (1632 CTAs, 256 threads/CTA)
+runtime[gpu0] = 3.78759 sec
+runtime[gpu1] = 2.21697 sec
+runtime[gpu2] = 1.30321 sec
+runtime[gpu3] = 1.22588 sec
+runtime[gpu4] = 1.42726 sec
+runtime[gpu5] = 1.30344 sec
+runtime[gpu6] = 0.869125 sec
+runtime[gpu7] = 0.644238 sec
+runtime = 3.788 sec
+total_num_triangles = 34824916864
