@@ -1,0 +1,37 @@
+k-clique listing with undirected graphs
+Using DAG (static orientation)
+input file path: inputs/orkut, graph name: orkut
+Orientation enabled, using DAG
+Time on generating the DAG: 0.442756 sec
+|V|: 3072441, |E|: 117185083, Max Degree: 535
+This graph does not have vertex labels
+This graph does not have edge labels
+This graph has no input vertex features
+Found 8 devices
+  Device[0]: NVIDIA A800 80GB PCIe
+  Compute capability: 7.5
+  Warp size: 32
+  Total # SM: 68
+  Total # CUDA cores: 4352
+  Total amount of shared memory per block: 49152 bytes
+  Total # registers per block: 65536
+  Total amount of constant memory: 65536 bytes
+  Total global memory: 10.7 GB
+  Memory Clock Rate: 6.68 GHz
+  Memory Bus Width: 352 bits
+  Peak Memory Bandwidth: 616.00 GB/s
+
+  Device[1]: NVIDIA A800 80GB PCIe
+  Device[2]: NVIDIA A800 80GB PCIe
+  Device[3]: NVIDIA A800 80GB PCIe
+  Device[4]: NVIDIA A800 80GB PCIe
+  Device[5]: NVIDIA A800 80GB PCIe
+  Device[6]: NVIDIA A800 80GB PCIe
+  Device[7]: NVIDIA A800 80GB PCIe
+GPU_total_mem = 11539054592 graph_mem = 962060200
+Time on generating the edgelist: 0.442207 sec
+5-clique max_blocks_per_SM = 4
+CUDA 5-clique listing/counting (4352 CTAs, 256 threads/CTA)
+frontier list size: 142 MB
+runtime [gpu] = 3.24104 sec
+num_5-cliques = 15766607860
