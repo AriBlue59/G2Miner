@@ -46,21 +46,6 @@ $ bin/clique_gpu_base inputs/orkut/graph      5 > ok-5-cliques.log 2>&1
 $ bin/clique_gpu_base inputs/friendster/graph 5 > fr-5-cliques.log 2>&1
 ```
 
-**Table 6**
-
-```
-$ # diamond
-$ bin/sgl_gpu_base inputs/livej/graph diamond        > lj-diamond.log 2>&1
-$ bin/sgl_gpu_base inputs/orkut/graph diamond        > or-diamond.log 2>&1
-$ bin/sgl_gpu_base inputs/twitter20/graph diamond    > tw2-diamond.log 2>&1
-$ bin/sgl_gpu_base inputs/twitter40/graph diamond    > tw4-diamond.log 2>&1
-$ bin/sgl_gpu_base inputs/friendster/graph diamond   > fr-diamond.log 2>&1
-$ # rectangle
-$ bin/sgl_gpu_base inputs/livej/graph rectangle      > lj-rectangle.log 2>&1
-$ bin/sgl_gpu_base inputs/orkut/graph rectangle      > or-rectangle.log 2>&1
-$ bin/sgl_gpu_base inputs/friendster/graph rectangle > fr-rectangle.log 2>&1
-```
-
 **Figure 9**
 
 ```
